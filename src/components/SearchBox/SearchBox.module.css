@@ -1,0 +1,13 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-bottom: 15px;
+  width: 270px;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 4px;
+}
