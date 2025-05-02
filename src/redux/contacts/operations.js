@@ -1,13 +1,13 @@
 import axios from "axios";
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
-axios.defaults.baseURL = "https://connections-api.goit.global";
+axios.defaults.baseURL = "https://connections-api.goit.global/";
 export const fetchContacts = createAsyncThunk(
   "fetchAll",
-  async (body, thunkAPI) => {
+  async (_, thunkAPI) => {
     try {
       const response = await axios.get(`/contacts`);
-      return response;
+      return response.data;
     } catch (error) {
       console.log(error);
       return thunkAPI.rejectWithValue(error.message);

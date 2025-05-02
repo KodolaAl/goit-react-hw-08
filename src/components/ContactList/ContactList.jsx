@@ -13,7 +13,7 @@ const ContactList = () => {
   const loading = useSelector(selectLoading);
 
   return (
-    <div>
+    <div className={css.div}>
       <ul className={css.list}>
         {contacts.map((contact) => {
           return (

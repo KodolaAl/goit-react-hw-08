@@ -13,6 +13,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  width: 100%;
+  max-width: 1280px;
+  padding: 20px;
+}
+
 ul,
 ol {
   list-style-type: none;
@@ -33,6 +39,7 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
+  width: 100%;
   min-width: 320px;
   min-height: 100vh;
 }
