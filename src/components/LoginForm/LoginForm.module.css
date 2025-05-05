@@ -23,6 +23,12 @@
   background: #aaa;
   cursor: not-allowed;
 }
+.field {
+  border-radius: 4px;
+  width: 250px;
+  font-size: 16px;
+  padding: 5px;
+}
 
 .error {
   color: red;
